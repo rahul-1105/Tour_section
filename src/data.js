@@ -1,0 +1,51 @@
+export const data = [
+  {
+    id: 1,
+    name: "Agra",
+    info: "Agra is one of the most populous cities in Uttar Pradesh, and the 24th most populous city in India. Agra is a major tourist destination because of its many Mughal-era buildings, most notably the Taj Mahal, Agra Fort and Fatehpur Sikri, all three of which are UNESCO World Heritage Sites.",
+    image: "https://cdn.thecodehelp.in/Agra.jpeg",
+    price: "35,750",
+  },
+  {
+    id: 2,
+    name: "Jaipur",
+    info: "Jaipur is a popular tourist destination in India, forming a part of the west Golden triangle tourist circuit along with Delhi and Agra. The city serves as a gateway to other tourist destinations in Rajasthan and has two World heritage sites of Amer Fort and Jantar Mantar.",
+    image: "https://cdn.thecodehelp.in/Jaipur.jpeg",
+    price: "29,695",
+  },
+  {
+    id: 3,
+    name: "Goa",
+    info: "It is India's smallest state by area and fourth-smallest by population. Goa has the highest GDP per capita among all Indian states, two and a half times as high as the GDP per capita of the country as a whole.",
+    image: "https://cdn.thecodehelp.in/Goa.jpeg",
+    price: "82,750",
+  },
+  {
+    id: 4,
+    name: "Varanasi",
+    info: "Varanasi or Banaras is one of the oldest cities in the world. It is situated on the bank of river Ganga spreading over 1535 sq.km area in the state of Uttar Pradesh. It is located between the confluences of river Ganga and Varuna and river Ganga and Assi rivulet.",
+    image: "https://cdn.thecodehelp.in/Varanasi.jpeg",
+    price: "31,095",
+  },
+  {
+    id: 5,
+    name: "Darjeeling",
+    info: "Darjeeling is situated on a long, narrow mountain ridge of the Sikkim Himalayas that descends abruptly to the bed of the Great Rangit River. On a clear day the city affords a magnificent view of Kanchenjunga (28,169 feet [8,586 metres]), and Mount Everest can be seen from a nearby viewing point.",
+    image: "https://cdn.thecodehelp.in/Darjeeling.jpeg",
+    price: "78,595",
+  },
+  {
+    id: 6,
+    name: "Jaisalmer",
+    info: "The city of Jaisalmer also acts as the guard to western Rajasthan (and India's) frontier. This 'Golden City' is located close to the Pakistan border and in close proximity to the Thar Desert. The city's most prominent landmark is the Jaisalmer Fort, also called Sonar Qila (Golden Fort).",
+    image: "https://cdn.thecodehelp.in/Jaisalmer.jpeg",
+    price: "68,595",
+  },
+  {
+    id: 7,
+    name: "Kochi",
+    info: "Kochi is known as the financial, commercial and industrial capital of Kerala. It has the highest GDP as well as the highest GDP per capita in the state. The city is home to the Southern Naval Command of the Indian Navy and is the state headquarters of the Indian Coast Guard.",
+    image: "https://cdn.thecodehelp.in/Kochi.jpeg",
+    price: "68,595",
+  },
+];

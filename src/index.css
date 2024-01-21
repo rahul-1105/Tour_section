@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  /* height: 100vh; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 3rem;
+  margin: 4rem 0;
+  padding: 1rem 2.5rem;
+  border: 5px dashed darkblue;
+  border-radius: 20px;
+}
+
+.cards {
+  /* border: 1px solid red; */
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.tour-card {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  width: 400px;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tour-card img {
+  width: 380px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.tour-price {
+  font-size: 2rem;
+  color: orangered;
+}
+
+.tour-title {
+  font-size: 1.5rem;
+}
+
+.tour-description {
+  font-size: 1.05rem;
+  letter-spacing: .5px;
+}
+
+.read-more {
+  color: blue;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+}
+
+.refresh {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.refresh-btn {
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
